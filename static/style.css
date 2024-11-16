@@ -1,0 +1,48 @@
+/* styles.css */
+
+/* Общий стиль для body */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Карточка на странице логина */
+.card {
+    border-radius: 10px;
+}
+
+/* Кнопка логина */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004494;
+}
+
+/* Навигация */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Карточки на домашней странице */
+.card {
+    border: none;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Заголовок домашней страницы */
+h1 {
+    color: #333;
+}
+
+/* Параграф */
+p {
+    color: #555;
+}
